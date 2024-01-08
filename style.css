@@ -154,16 +154,108 @@
 /* portfolio start here */
 .protfolio-section{
     margin: 0px 150px;
+    margin-top: 150px;
+    
 }
 .protfolio-container{
-   
-    display: flex;
-    flex-wrap: nowrap;
+    
   
-    gap:20px;
+   display:flex;
+    flex-flow: row wrap;
+   justify-content:space-between;
+  gap: 20px;
 }
 .protfolios{
-    width:1800px;
+   width: 400px;
+   
+  
+}
+.protfolio-description{
+    width: 500px;
+}
+.protfolio-title{
+    font-size: 40px;
+    
 }
 .protfolio-img{
-    }
+ 
+}
+.protfolio-img:hover{
+    box-shadow: 5px 5px 20px 10px rgb(172, 235, 79);
+    border-radius: 20px;
+}
+.subscirbe-banner{
+    margin: 0 150px;
+    background-color:rgba(255, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.subescribe-content{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 100PX;
+
+}
+.subescribe-input{
+    width: 220px;
+    height: 35px;
+    border: none;
+    border-radius:20px 0 0 20px ;
+    text-align:center
+   
+}
+.subscribe-btn{
+     width: 100px;
+     height: 35px;
+     background-color: #f00;
+     border: none;
+     border-radius: 0 20px 20px 0;
+}
+.subscribe-title{
+    font-size: 40px;
+}
+.subscribe-desc{
+    color: rgba(7, 2, 17, 0.60);;
+}
+/* subscribe section end here */
+/* footer section start here */
+.footer-section{
+    background-color:  #070211;
+    color: aliceblue;
+    margin-top: 100px;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 150px;
+}
+.address-title{
+    width: 250px;
+    padding:20px;
+}
+.address-links{
+    width: 160px;
+    padding: 40px;
+    line-height: 30px;
+}
+
+
+.social-media{
+    text-align: center;
+    padding: 20px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin:30px
+}
+.horizaintal{
+    margin:0 150px;
+    color:rgba(255, 255, 255, 0.15);
+    border: none;
+    border: 1px solid;
+}
